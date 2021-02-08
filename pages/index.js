@@ -1,4 +1,7 @@
 import Head from "next/head";
+import { Button } from 'reactstrap';
+import React from 'react';
+
 
 const siteinfo = {
   title: "Title of Index Page",
@@ -7,6 +10,7 @@ const siteinfo = {
 const Home = () => {
   return (
     <>
+        <Button color="danger">Danger!</Button>
     </>
   );
 };
